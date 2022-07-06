@@ -1,125 +1,129 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #f5f5f5;
+
+} 
+
+.container {
+  text-align: center;
+  width: 300px;
+  margin: 50px auto;
+}
+
+img {
+  width: 100%; 
+}
+
+img.avatar {
+  width: 117px;
+  height: 117px;
+  border: #330066 solid 5px;
+  border-radius: 50%;
+  padding: 3.7px;
+}
+
+h1 {
+  font-size: 28px;
+  color: #00082F;
+  margin-top: 24px;
+  margin-bottom: 8px;
+  font-family: Cambria, Geneva, 'PT Serif' , serif, arial bold;
+  font-weight: 800;
+}
+ 
+#username {
+  font-family: Cambria, 'Roboto', monospace, Cochin, Georgia, serif; 
+  color: #500188;
+  opacity: 0.8;
+  font-size: 16px;
+   transition: opacity 300ms;
+}
+
+#username:hover {
+  opacity: 1;
+}
   
-  a {
-    text-decoration: none;
-  }
-  
-  body {
-    background-color: #f5f5f5;
-  
-  } 
-  
-  .container {
-    text-align: center;
-    width: 300px;
-    margin: 50px auto;
-  }
-  
-  img {
-    width: 100%; 
-  }
-  
-  img.avatar {
-    width: 117px;
-    height: 117px;
-    border: #330066 solid 5px;
-    border-radius: 50%;
-    padding: 3.7px;
-  }
-  
-  h1 {
-    font-size: 28px;
-    color: #00082F;
-    margin-top: 24px;
-    margin-bottom: 8px;
-    font-family: Cambria, Geneva, 'PT Serif' , serif, arial bold;
-    font-weight: 800;
-  }
+#deco {
+  margin-top: 15px;
+}
+
+.color {
+  color: #6f11bb;
+}
+
+ul {
+  list-style: none;
+  margin: 35px 0px 40px 0px;
+}
+
+ul li a {
+  height: 53px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #330066; /* hex: 0 - F */
+  color: white;
+  text-transform: uppercase;
+  font-size: 14.5px;
+  font-family: 'Roboto', sans-serif, 'Open Sans', sans-serif;
+  font-weight: 500;
+
+  margin-bottom: 12px;
+  border-radius: 4px;
+
+  transition: background 400ms;
    
-  #username {
-    font-family: Cambria, 'Roboto', monospace, Cochin, Georgia, serif; 
-    color: #500188;
-    opacity: 0.8;
-    font-size: 16px;
-     transition: opacity 300ms;
-  }
-  
-  #username:hover {
-    opacity: 1;
-  }
+}
+
+ul li a:hover {
+  background: #1c0049;
+}
+
+footer {
+  font-family: Cochin, Georgia, Cambria, Times, 'Times New Roman';
+  font-size: 12px;
+  color: #180f28;
+  opacity: 0.9;
+}
+
     
-  #deco {
-    margin-top: 15px;
-  }
-  
-  .color {
-    color: #6f11bb;
-  }
-  
-  ul {
-    list-style: none;
-    margin: 35px 0px 40px 0px;
-  }
-  
-  ul li a {
-    height: 53px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #330066; /* hex: 0 - F */
-    color: white;
-    text-transform: uppercase;
-    font-size: 14.5px;
-    font-family: 'Roboto', sans-serif, 'Open Sans', sans-serif;
-    font-weight: 500;
-  
-    margin-bottom: 12px;
-    border-radius: 4px;
-  
-    transition: background 400ms;
-     
-  }
-  
-  ul li a:hover {
-    background: #1c0049;
-  }
-  
-  footer {
-    font-family: Cochin, Georgia, Cambria, Times, 'Times New Roman';
-    font-size: 12px;
-    color: #180f28;
-    opacity: 0.9;
-  }
-  
-      
-  footer a {
-    color: #180f28
-  }    
-  
-  
-  .logo-insta {
-    width: 35px; 
-    position: absolute;
-    left: 165px;
-    bottom: 223px;
-   
-  }
-  
-  .logo-face {
-    width: 35px; 
-    position: absolute;
-     left: 165px;
-    bottom: 158px; 
-  }
-  
-  .logo-git {
-    width: 35px; 
-    position: absolute;
-    left: 165px;
-    bottom: 93px; 
+footer a {
+  color: #180f28
+}    
+
+ul li a { 
+  height: 58px;
+}
+
+.logo-insta {
+  width: 35px; 
+  position: relative;
+  right: 65px;
+  bottom: 2px;
+ 
+}
+
+.logo-face {
+  width: 35px; 
+  position: relative;
+  right: 70px;
+  bottom: 2px;
+}
+
+.logo-git {
+  width: 35px; 
+  position: relative;
+  right: 80px;
+  bottom: 2px;
+}
+
     
-  }
