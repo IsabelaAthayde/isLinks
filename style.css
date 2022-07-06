@@ -58,6 +58,7 @@ h1 {
 
 .color {
   color: #6f11bb;
+  font-weight: 100;
 }
 
 ul {
@@ -105,25 +106,23 @@ ul li a {
 }
 
 .logo-insta {
-  width: 35px; 
+  width: 40px; 
   position: relative;
   right: 65px;
-  bottom: 2px;
  
 }
 
 .logo-face {
-  width: 35px; 
+  width: 48px; 
   position: relative;
   right: 70px;
-  bottom: 2px;
 }
 
 .logo-git {
-  width: 35px; 
+  width: 40px; 
   position: relative;
   right: 80px;
-  bottom: 2px;
+  bottom: 1px;
 }
 
     
