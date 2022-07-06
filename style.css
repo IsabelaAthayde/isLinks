@@ -104,7 +104,7 @@
   .logo-insta {
     width: 35px; 
     position: absolute;
-    left: 115px;
+    left: 165px;
     bottom: 223px;
    
   }
@@ -112,16 +112,14 @@
   .logo-face {
     width: 35px; 
     position: absolute;
-     left: 115px;
+     left: 165px;
     bottom: 158px; 
   }
   
   .logo-git {
     width: 35px; 
     position: absolute;
-    left: 115px;
+    left: 165px;
     bottom: 93px; 
     
   }
-  
-      
